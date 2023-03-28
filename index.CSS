@@ -1,0 +1,277 @@
+body {
+    position: relative;
+    background-color: #F1F1F1;
+    border: 2px solid red;
+    width: 1300px;
+    height: 3900px;
+}
+
+.logo {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.logo i {
+    color: white;
+    font-size: 25px;
+    padding: 12px;
+}
+.content {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    width: 1140px;
+    height: 200px;
+    margin: 85px;
+    margin-top: 0;
+    top: 50px;
+    vertical-align: middle;
+}
+h1 {
+    margin-top: 50px;
+}
+.image {
+    position: absolute;
+    width: 1140px;
+    height: 650px;
+    top: 250px;
+    left: 85px;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-1 {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+button {
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.5;
+    width: 120px;
+    height: 30px;
+}
+button a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.content-2 {
+    background-color: white;
+    position: absolute;
+
+    width: 650px;
+    height: 900px;
+    top: 920px;
+    left: 100px;
+}
+
+.content-2 p {
+    margin-left: 10px;
+}
+#image-2 {
+    width: 630px;
+    height: 400px;
+}
+#image-2 img {
+    margin: 10px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ h3 {
+    text-align: center;
+ }
+ 
+ h5 {
+    text-align: center;
+ }
+
+ .image-3 {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+ }
+ .image-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .image-3 p {
+    position: absolute;
+    top: 800px;
+    left: 120px;
+ }
+
+
+ .content-3 {
+    background-color: white;
+    position: absolute;
+
+    width: 650px;
+    height: 900px;
+    top: 1850px;
+    left: 100px;
+}
+
+.content-3 p {
+    margin-left: 10px;
+}
+#image-3 {
+    width: 630px;
+    height: 400px;
+}
+#image-3 img {
+    margin: 10px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ h3 {
+    text-align: center;
+ }
+ 
+ h5 {
+    text-align: center;
+ }
+
+ .image-3 {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+ }
+ 
+
+ .content-4 {
+    background-color: white;
+    position: absolute;
+
+    width: 650px;
+    height: 900px;
+    top: 2780px;
+    left: 100px;
+}
+
+.content-4 p {
+    margin-left: 10px;
+}
+#image-4 {
+    width: 630px;
+    height: 400px;
+}
+#image-4 img {
+    margin: 10px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ h3 {
+    text-align: center;
+ }
+ 
+ h5 {
+    text-align: center;
+ }
+
+ .image-4s {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+ }
+ 
+ /* phần phụ  */
+ .article {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 920px;
+    left: 800px;
+ }
+
+ .ava-1{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+ }
+ .ava-2 {
+    width: 400px;
+    height: 250px;
+ }
+ .ava-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .ava-1 p {
+    color: white;
+ }
+
+ .post-2 {
+    display: flex;
+    gap: 5px;
+    border: 1px solid green;
+    width: 400px;
+    height: 600px;
+ }
+ .post li {
+    list-style: none;
+    width: 100px;
+    height: 100px;
+ }
+
+ .post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ #Advertise {
+    color: white;
+    background: black;
+    text-align: center;
+    border: 1px solid green;
+    width: 400px;
+ }
+#your {
+    background-color: white;
+    border: 1px solid green;
+    width: 400px;
+    height: 300px;
+}
+.footer {
+    position: absolute;
+    width: 1300px;
+    height: 100px;
+    bottom: 0;
+    background-color: #616161;
+}
+
+.footer button{
+    margin: 20px;
+    background-color: black;
+}
+.footer a {
+    color: white;
+}
+article h6 {
+    font-size: 20px;
+    width: 360px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+.post ul li {
+    list-style: none;
+}
